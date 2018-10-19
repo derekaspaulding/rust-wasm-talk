@@ -1,0 +1,10 @@
+[package]
+name = "hello-world"
+version = "0.1.0"
+authors = ["Derek Spaulding <derek@derekaspaulding.com>"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
